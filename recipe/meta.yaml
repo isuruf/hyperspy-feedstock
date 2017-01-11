@@ -46,6 +46,7 @@ requirements:
     - tqdm
     - python-dateutil
     - backports_abc  # [py34]
+    - cython   # [py34]
 test:
     requires:
         - nose
