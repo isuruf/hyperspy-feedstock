@@ -9,6 +9,7 @@ if __name__ == '__main__':
     ETSConfig.toolkit = "null"
     import matplotlib
     matplotlib.use("Agg")
+    import Cython
 
     sys.argv.append('hyperspy.tests')
     sys.exit(run_exit())
